@@ -1,0 +1,20 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  padding-bottom: 50px;
+  background-color: #0f172a;
+  color: #e2e8f0;
+}
+
+.tracking-wider {
+  letter-spacing: 0.05em;
+}
+
+.transition-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.transition-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important;
+}
